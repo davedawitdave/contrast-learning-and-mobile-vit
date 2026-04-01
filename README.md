@@ -4,7 +4,6 @@
 
 A clean, modular, from-scratch implementation of contrastive learning (SimCLR-style) on CIFAR-10. The project trains three encoders — SimpleCNN, ResNet-18, and EfficientNet-B0 — and deeply analyzes the learned embedding spaces using alignment, uniformity, clustering metrics, k-NN evaluation, confusion matrices, and controlled failure experiments.
 
----
 
 ###  Project Goals
 
@@ -15,7 +14,6 @@ A clean, modular, from-scratch implementation of contrastive learning (SimCLR-st
 - Build production-grade habits: Google Drive checkpointing, AMP, clean modular notebooks, and comprehensive evaluation.
 
 
----
 
 ###  How to Run
 
@@ -26,7 +24,7 @@ A clean, modular, from-scratch implementation of contrastive learning (SimCLR-st
 
 **Note:** Notebook 1 takes ~1–2 hours on a T4 GPU (EfficientNet-B0 uses AMP and a smaller batch size). You can reduce `epochs=10` for faster experiments.
 
----
+
 
 **Summary of Results**  
 EfficientNet-B0 (with 32→224 resize + ImageNet initialization) clearly outperforms the other two models across **every metric**:
@@ -36,7 +34,7 @@ EfficientNet-B0 (with 32→224 resize + ImageNet initialization) clearly outperf
 
 ResNet-18 is a solid middle performer. SimpleCNN works as a baseline but shows clear limitations in clustering quality.
 
----
+
 
 ### Technical Highlights
 
