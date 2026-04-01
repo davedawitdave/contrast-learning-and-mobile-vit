@@ -1,5 +1,3 @@
-# contrast-learning-and-mobile-vit
-
 # Contrastive Learning from Scratch on CIFAR-10
 
 **Exploring Representation Geometry, Model Architectures, and Failure Modes in Self-Supervised Learning**
