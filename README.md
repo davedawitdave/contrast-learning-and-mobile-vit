@@ -55,20 +55,6 @@ We trained EfficientNet-B0 with **only weak augmentation** (10 epochs) under two
 
 **Key Insight**: Strong data augmentation is more critical than temperature tuning. Weak augmentations severely degrade representation quality even when temperature is varied.
 
-**Confusion Matrices (Weak Augmentation)**  
-![Weak τ=0.5 Confusion](images/weak_tau05_confusion.png)  
-![Weak τ=0.1 Confusion](images/weak_tau01_confusion.png)
-
-**Embedding Visualizations**  
-![Weak τ=0.5 t-SNE](images/weak_tau05_tsne.png)  
-![Weak τ=0.1 PCA](images/weak_tau01_pca.png)
-
-**Cosine Similarity Analysis**  
-![Weak τ=0.5 Cosine](images/weak_tau05_cosine.png)  
-![Weak τ=0.1 Cosine](images/weak_tau01_cosine.png)
-
----
-
 ### Technical Highlights
 - **Augmentations**: Strong SimCLR-style (RandomResizedCrop, ColorJitter, GaussianBlur, Grayscale) vs Weak (only RandomHorizontalFlip).
 - **Loss**: Custom InfoNCE with temperature τ (default 0.5, ablation 0.1).
