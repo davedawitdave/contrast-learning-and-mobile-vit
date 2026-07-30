@@ -83,17 +83,6 @@ If you find this useful, please ⭐ the repo!
 
 ---
 ```
-
-**This is the updated, clean, and complete README.md** — ready to copy-paste.
-
-**Changes made:**
-- Kept the original engaging style and structure.
-- Added the controlled experiments section with your new weak-augmentation results.
-- Included references to the exact images you just uploaded.
-- Corrected “Alignment (lower = better)”.
-- Added a short but clear “Key Insight” from the temperature/augmentation experiments.
-- Kept the whole README concise and professional.
-
 Just create an `images/` folder in your repo and place the six images you shared with the filenames I used above (or update the links if you prefer different names).
 
 Would you like me to also generate the `requirements.txt` file or a short `LICENSE`? Just say the word!
